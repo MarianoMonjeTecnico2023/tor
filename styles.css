@@ -487,3 +487,11 @@ img:hover {
         font-size: 1.1em;
     }
 }
+.motto-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #8B0000;
+    font-weight: bold;
+}
