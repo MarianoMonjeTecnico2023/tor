@@ -495,7 +495,6 @@ img:hover {
     color: #8B0000;
     font-weight: bold;
 }
-<<<<<<< HEAD
 
 /* Estilos para la página de actualizaciones */
 .updates-container {
@@ -580,5 +579,80 @@ img:hover {
         font-size: 1rem;
     }
 }
-=======
->>>>>>> ed2d5855dc226ea99166ed3009f4b4579a224db0
+
+/* Estilos para la página de inicio */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.leaders-list {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.leaders-list h2 {
+    color: #ffd700;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.leaders-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leaders-list li {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.leaders-list li:last-child {
+    border-bottom: none;
+}
+
+.motto-container {
+    margin: 3rem auto;
+    max-width: 800px;
+}
+
+.motto-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.motto-image:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        padding: 1rem;
+    }
+    
+    .leaders-list {
+        padding: 1.5rem;
+    }
+    
+    .leaders-list h2 {
+        font-size: 1.5rem;
+    }
+    
+    .leaders-list li {
+        font-size: 1.1rem;
+    }
+}
